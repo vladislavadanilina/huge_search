@@ -74,7 +74,8 @@ input[type="button"] {
   overflow: hidden;
   right: 0;
   top: 50%;
-  background: transparent url(img/search.svg) no-repeat center center;
+  background-image: url(../img/search.svg);
+  background: transparent no-repeat center center;
   background-size: 100%;
   border: none;
   transform: translate3d(0, -50%, 0) scale(1);

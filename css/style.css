@@ -18,20 +18,24 @@ body {
 }
 
 main{
-  display: flex;
-  flex-wrap: wrap;
+  font-size: 0;
 }
 
 div.column {
+  display: inline-block;
+  width: 30%;
   font-size: 1rem;
-  width: 33.3%;
  
+}
+div.column-popular{
+  margin: 0 5%;
 }
 
 .search-form {
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
   position: relative;
-  width: 80%;
+  width: 90%;
 }
 
 
@@ -107,7 +111,6 @@ ul li a {
   color: rgba(145,145,145,0.7);
 }
 
-ul li a:hover,
 ul li a:hover {
   color: #EC5A62;
   background: rgba(118, 117, 128, 0.1);
@@ -139,4 +142,9 @@ a,
 input[type="submit"],
 input[type="button"],
 button{
-    text-decoration: none;
+  text-decoration: none;
+  }
+div.container{
+  width: 80%;
+  margin: 0 auto;
+  }
